@@ -11,7 +11,7 @@ it cannot determine the end of line, thus block the process
 this small tool can help to unblock the tty, useful if you have something running in background/batch, waiting for "Y/N/All" etc. and you don't have terminal open. 
 
 ## compile
-you need gcc, then
+you only need gcc, then
 ```
 gcc -o send2tty send2tty.c
 ```
